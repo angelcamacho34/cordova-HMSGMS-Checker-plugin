@@ -1,4 +1,4 @@
-package com.checkhuaweiservices;
+package com.hmsgmschecker;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
@@ -51,7 +51,7 @@ public class HMSGMSChecker extends CordovaPlugin {
     private void isGMSAvailable(Context context, CallbackContext callbackContext){
         try{
             JSONObject json = new JSONObject();
-            
+
             if (GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(context) == com.google.android.gms.common.ConnectionResult.SUCCESS) {
                 json.put("status", true);
             } else {
