@@ -1,4 +1,4 @@
-Cordova Check Huawei Services Availability
+Cordova Check Huawei/Google Services Availability
 =======================================
 
 Use this plugin to check if an android device has the `Huawei Services` available. It would be helpful if you want to check if the device is a Huawei without `Google Services`.
@@ -8,6 +8,12 @@ Use this plugin to check if an android device has the `Huawei Services` availabl
 
 ```
 cordova plugin add https://github.com/angelcamacho34/cordova-HMSGMS-Checker-plugin
+```
+
+or
+
+```
+cordova plugin add cordova-hmsgmschecker-plugin
 ```
 
 
