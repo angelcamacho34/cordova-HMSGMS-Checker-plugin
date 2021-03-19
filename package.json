@@ -20,8 +20,12 @@
   ],
   "author": "Angel Camacho (Aldeano)",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/angelcamacho34/cordova-HMSGMS-Checker-plugin"
+    "type": "git",
+    "url": "git+https://github.com/angelcamacho34/cordova-HMSGMS-Checker-plugin.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angelcamacho34/cordova-HMSGMS-Checker-plugin/issues"
+  },
+  "homepage": "https://github.com/angelcamacho34/cordova-HMSGMS-Checker-plugin#readme"
 }
