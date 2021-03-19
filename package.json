@@ -1,0 +1,27 @@
+{
+  "name": "cordova-hmsgmschecker-plugin",
+  "version": "1.0.0",
+  "description": "Use this plugin to check if an android device has the `Huawei Services` available or `Google Services`",
+  "cordova": {
+    "id": "cordova-hmsgmschecker-plugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova",
+    "android",
+    "huawei",
+    "huawei services",
+    "google",
+    "google services"
+  ],
+  "author": "Angel Camacho (Aldeano)",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/angelcamacho34/cordova-HMSGMS-Checker-plugin"
+  },
+  "license": "MIT"
+}
