@@ -16,14 +16,14 @@
 
   <platform name="android">
     <config-file parent="/*" target="res/xml/config.xml">
-      <feature name="hmsgmschecker">
+      <feature name="HMSGMSChecker">
         <param name="android-package" value="com.hmsgmschecker.HMSGMSChecker" />
       </feature>
     </config-file>
 
     <config-file parent="/*" target="AndroidManifest.xml"></config-file>
 
-    <source-file src="src/android/com/hmsgmschecker/HMSGMSChecker.java" target-dir="src/cordova-HMSGMSChecker-plugin/HMSGMSChecker" />
+    <source-file src="src/android/com/hmsgmschecker/HMSGMSChecker.java" target-dir="src/android/com/hmsgmschecker/HMSGMSChecker" />
 
     <framework custom="true" src="src/android/build-extras.gradle" type="gradleReference"/>
   </platform>
