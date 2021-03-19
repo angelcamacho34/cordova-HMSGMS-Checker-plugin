@@ -22,11 +22,13 @@ HMSGMSChecker.isHMSAvailable(successCallback, failureCallback)
 - `successCallback({ status: boolean})` status will be `true` if the device is a Huawei device 
 - `failureCallback(error:string)` is called if there was an error checking if the device has not Huawei Services.
 
+```
 HMSGMSChecker.isGMSAvailable(successCallback, failureCallback)
 ```
 
 - `successCallback({ status: boolean})` status will be `true` if the device is a Google device 
 - `failureCallback(error:string)` is called if there was an error checking if the device has not Google Services.
+
 
 ## Usage in Ionic
 
